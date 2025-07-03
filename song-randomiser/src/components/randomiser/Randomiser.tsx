@@ -177,6 +177,12 @@ const Randomiser: React.FC = () => {
     setCurrentAction((currentAction) => currentAction + 1);
   };
 
+  // Undo actions (in case of misclicks)
+  const handleReset = () => {
+    setCurrentAction(1);
+    setPickBanStates(['', '', '', '', '']);
+  };
+
   // Remove selected picks
   useEffect(() => {
     if (currentAction === 4) {
@@ -279,6 +285,14 @@ const Randomiser: React.FC = () => {
         >
           Randomise!
         </button>
+        {currentAction !== 0 && (
+          <button
+            className="bg-blue-700 mx-1 px-3 py-2 rounded-xl cursor-pointer hover:bg-blue-800 active:bg-blue-900 transition"
+            onClick={handleReset}
+          >
+            Reset
+          </button>
+        )}
         {displayRemove && (
           <button
             className="bg-red-700 mx-1 px-3 py-2 rounded-xl cursor-pointer hover:bg-red-800 active:bg-red-900 transition"
