@@ -3,6 +3,9 @@ import json
 resp = requests.get('https://dp4p6x0xfi5o9.cloudfront.net/chunithm/data.json')
 data = resp.json()
 
+with open('data/songs.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
+
 IMAGE_BASE_URL = 'https://dp4p6x0xfi5o9.cloudfront.net/chunithm/img/cover/'
 songs_json = {'songs': []}
 for song_data in data['songs']:
@@ -14,7 +17,7 @@ for song_data in data['songs']:
         if diff >= len(sheets): continue # No ULT
         # Retrieve sheet details
         sheet = sheets[diff]
-        _, diff_name, display_level, _, internal_level, _, note_designer, note_count, regions, _ = list(sheet.values())
+        _, diff_name, display_level, _, _, internal_level, note_designer, note_count, regions, _ = list(sheet.values())
 
         # Not available in international ver.
         if regions['intl'] == False: continue
@@ -39,4 +42,4 @@ for song_data in data['songs']:
 with open('song-randomiser/src/assets/songs.json', 'w', encoding='utf-8') as f:
     json.dump(songs_json, f, ensure_ascii=False, indent=4)
 
-print("File written.")
+print(f"File written. ({len(songs_json['songs'])} songs)")

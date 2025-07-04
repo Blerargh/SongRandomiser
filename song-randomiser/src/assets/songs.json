@@ -2497,6 +2497,18 @@
             "noteCount": 1770
         },
         {
+            "song": "ERIS -Legend of Gaidelia-",
+            "category": "VARIETY",
+            "artist": "Grand Thaw / Rigel Theatre",
+            "bpm": 162,
+            "imageLink": "https://dp4p6x0xfi5o9.cloudfront.net/chunithm/img/cover/99432b06d9a1860c02e1ec04a9aa77ee8ded1537090f9df6d97777d0cce92492.png",
+            "diffName": "ULTIMA",
+            "displayLevel": "15",
+            "internalLevel": 15.1,
+            "noteDesigner": "MinimiLight -Despair-",
+            "noteCount": 2475
+        },
+        {
             "song": "シジョウノコエ VOCALO ver.",
             "category": "niconico",
             "artist": "OSTER project",
@@ -17411,6 +17423,42 @@
             "internalLevel": 15.4,
             "noteDesigner": "Mistilteinn -For KOP6th-",
             "noteCount": 2832
+        },
+        {
+            "song": "INFiNiTE ENERZY -Overdoze-",
+            "category": "VARIETY",
+            "artist": "Reku Mochizuki",
+            "bpm": null,
+            "imageLink": "https://dp4p6x0xfi5o9.cloudfront.net/chunithm/img/cover/71724801e3c23eaa991d0d15f90486a19b12ede7aa774285486fb16b2a697c36.png",
+            "diffName": "MASTER",
+            "displayLevel": "14",
+            "internalLevel": 14.2,
+            "noteDesigner": "INFiNiTE BLADE -Overforge-",
+            "noteCount": 1636
+        },
+        {
+            "song": "本能的 Survivor",
+            "category": "ゲキマイ",
+            "artist": "曲：eba／歌：⊿TRiEDGE [高瀬 梨緒(CV：久保 ユリカ)、結城 莉玖(CV：朝日奈 丸佳)、藍原 椿(CV：橋本 ちなみ)]",
+            "bpm": null,
+            "imageLink": "https://dp4p6x0xfi5o9.cloudfront.net/chunithm/img/cover/75381d5c76c7f9d35dfa7e9958aab9e6ebf3a0dffcd79fe47fb81ee4c3854fc4.png",
+            "diffName": "MASTER",
+            "displayLevel": "13+",
+            "internalLevel": 13.5,
+            "noteDesigner": "ロシェ＠ペンギン",
+            "noteCount": 2094
+        },
+        {
+            "song": "淵底のグレイ・ユークロニア",
+            "category": "ゲキマイ",
+            "artist": "打打だいず vs. siromaru vs. Tanchiky",
+            "bpm": null,
+            "imageLink": "https://dp4p6x0xfi5o9.cloudfront.net/chunithm/img/cover/dde5c5e606126bbec95f5940fb5f793c31c231376530fce9db36827bd65d83a5.png",
+            "diffName": "MASTER",
+            "displayLevel": "15",
+            "internalLevel": 15.0,
+            "noteDesigner": "夕凪アロエ",
+            "noteCount": 2649
         },
         {
             "song": "Nyan Cat",
