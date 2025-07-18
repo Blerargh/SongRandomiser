@@ -17437,6 +17437,66 @@
             "noteCount": 1636
         },
         {
+            "song": "人マニア",
+            "category": "niconico",
+            "artist": "原口沙輔 feat.重音テト",
+            "bpm": null,
+            "imageLink": "https://dp4p6x0xfi5o9.cloudfront.net/chunithm/img/cover/a0cd09c67804299fbc09dfa24734ee85a71f299b1ed5206d71a244d3aaa2c9a2.png",
+            "diffName": "MASTER",
+            "displayLevel": "14",
+            "internalLevel": 14.2,
+            "noteDesigner": "MANIAC LEMON",
+            "noteCount": 1723
+        },
+        {
+            "song": "オーバーライド",
+            "category": "niconico",
+            "artist": "吉田夜世",
+            "bpm": null,
+            "imageLink": "https://dp4p6x0xfi5o9.cloudfront.net/chunithm/img/cover/310aaf5241eff26bbd140a4b36dcdb2cda0a4c9ad8f9b20122dfb1f05b37f6e9.png",
+            "diffName": "MASTER",
+            "displayLevel": "12+",
+            "internalLevel": 12.9,
+            "noteDesigner": "ロシェ＠ペンギン",
+            "noteCount": 2029
+        },
+        {
+            "song": "オーバーライド",
+            "category": "niconico",
+            "artist": "吉田夜世",
+            "bpm": null,
+            "imageLink": "https://dp4p6x0xfi5o9.cloudfront.net/chunithm/img/cover/310aaf5241eff26bbd140a4b36dcdb2cda0a4c9ad8f9b20122dfb1f05b37f6e9.png",
+            "diffName": "ULTIMA",
+            "displayLevel": "14+",
+            "internalLevel": 14.6,
+            "noteDesigner": "*NullPointerException*",
+            "noteCount": 2101
+        },
+        {
+            "song": "ライアーダンサー",
+            "category": "niconico",
+            "artist": "マサラダ",
+            "bpm": null,
+            "imageLink": "https://dp4p6x0xfi5o9.cloudfront.net/chunithm/img/cover/9a053f69d07ec2cc4bb98bff6ce8688cc8becd526d083ef4aea387c77274ce46.png",
+            "diffName": "MASTER",
+            "displayLevel": "13+",
+            "internalLevel": 13.5,
+            "noteDesigner": "アミノハバキリ",
+            "noteCount": 2075
+        },
+        {
+            "song": "黒塗り世界宛て書簡",
+            "category": "niconico",
+            "artist": "フロクロ",
+            "bpm": null,
+            "imageLink": "https://dp4p6x0xfi5o9.cloudfront.net/chunithm/img/cover/1ae3531816b2fe3a147a87d2a1e23ed235d0d1169c05174dbe34144960105520.png",
+            "diffName": "MASTER",
+            "displayLevel": "13+",
+            "internalLevel": 13.6,
+            "noteDesigner": "ミニミライト",
+            "noteCount": 1295
+        },
+        {
             "song": "本能的 Survivor",
             "category": "ゲキマイ",
             "artist": "曲：eba／歌：⊿TRiEDGE [高瀬 梨緒(CV：久保 ユリカ)、結城 莉玖(CV：朝日奈 丸佳)、藍原 椿(CV：橋本 ちなみ)]",

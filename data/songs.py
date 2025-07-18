@@ -1,5 +1,6 @@
 import requests
 import json
+import math
 resp = requests.get('https://dp4p6x0xfi5o9.cloudfront.net/chunithm/data.json')
 data = resp.json()
 
@@ -17,7 +18,7 @@ for song_data in data['songs']:
         if diff >= len(sheets): continue # No ULT
         # Retrieve sheet details
         sheet = sheets[diff]
-        _, diff_name, display_level, _, _, internal_level, note_designer, note_count, regions, _ = list(sheet.values())
+        _, diff_name, _, _, _, internal_level, note_designer, note_count, regions, _ = list(sheet.values())
 
         # Not available in international ver.
         if regions['intl'] == False: continue
@@ -32,7 +33,7 @@ for song_data in data['songs']:
             'imageLink': IMAGE_BASE_URL + image,
             # Chart info
             'diffName': diff_name.upper(),
-            'displayLevel': display_level,
+            'displayLevel': str(math.floor(float(internal_level))) + ('+' if internal_level - math.floor(internal_level) >= 0.5 else ''),
             'internalLevel': float(internal_level),
             'noteDesigner': note_designer,
             'noteCount': note_count['total'],
