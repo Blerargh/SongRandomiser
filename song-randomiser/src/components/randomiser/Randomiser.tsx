@@ -12,7 +12,7 @@ interface SongDetails {
   displayLevel: string;
   internalLevel: number;
   noteDesigner: string;
-  noteCount: 2788;
+  noteCount: number;
 }
 
 const Randomiser: React.FC = () => {
